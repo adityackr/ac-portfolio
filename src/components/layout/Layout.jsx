@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 				<div className="container mx-auto flex flex-col md:flex-row gap-3 justify-center md:justify-between items-center">
 					<div className="md:shrink-0">
 						<Link to="/">
-							<img className="w-28" src={logo} alt="AC" />
+							<img className="w-32" src={logo} alt="AC" />
 						</Link>
 					</div>
 					<NavLinks />
