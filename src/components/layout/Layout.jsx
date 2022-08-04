@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 			<main>{children}</main>
 
 			<footer className="bg-[#111827] text-white py-12">
-				<div className="container mx-auto flex flex-col md:flex-row gap-6 justify-around items-center border-b pb-5 border-[#0089C3]">
+				<div className="container mx-auto flex flex-col md:flex-row gap-6 justify-between items-center border-b pb-5 border-[#0089C3]">
 					<div>
 						<img className="w-28" src={logo} alt="AC" />
 					</div>
@@ -52,7 +52,8 @@ const Layout = ({ children }) => {
 
 				<div>
 					<p className="text-center mt-6">
-						Copyright &copy; | All rights reserved by Aditya Chakraborty{' '}
+						Copyright &copy; {new Date().getFullYear()} | All rights reserved by
+						Aditya Chakraborty{' '}
 					</p>
 				</div>
 			</footer>
